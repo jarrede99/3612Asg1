@@ -1,0 +1,49 @@
+header, footer, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	border: 0;
+}
+
+
+
+.button-container{
+	padding: 0px 0px 0px 50px;
+	background-image: url('./images/logo.svg');
+	background-repeat: no-repeat;
+}
+
+.clear-button {
+	background: none;
+	border: none;
+	color: #51279B;
+	margin: 25px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.clear-button:hover {
+	color: #8662C7;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: darkblue;
+	color: white;
+}
+footer>p, footer>a{
+	display: inline-block;
+	margin: 0px 15px;
+}
+footer>a:link {
+	color: grey;
+}
+  
+footer>a:visited {
+	color: darkgray;
+}

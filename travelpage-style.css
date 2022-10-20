@@ -1,0 +1,43 @@
+body{
+	background-color: #D8F9FF;
+}
+
+.travel-page-text-container{
+	width: 40%;
+	margin: 0px 0px 50px 900px;
+	color: salmon;
+	font-size: 150%;
+	background-color: darkolivegreen;
+	border: solid slateblue 3px;
+	display: inline-block;
+}
+.travel-page-text-container>*{
+	margin: 20px;
+}
+
+img{
+	border: solid 5px green;
+	margin: 0px 0px 0px 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.static-map{
+	display: inline-block;
+}
+
+.heart{
+	display: inline-block;
+	background-image: url('./images/heart.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 0em 0em 0em 2em;
+}
+.comment{
+	display: inline-block;
+	background-image: url('./images/comment.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 0em 0em 0em 2em;
+}
